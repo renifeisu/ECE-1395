@@ -5,7 +5,7 @@
 # imports
 import numpy as np
 import matplotlib.pyplot as plt
-from datetime import datetime
+import time
 import itertools
 from sklearn.utils import shuffle
 
@@ -36,24 +36,24 @@ plt.savefig('output/ps1-3-c-2.png') # output
 
 #----------------------------------QUESTION-3-PART-D---------------------------------------------
 # record start time
-start_time = datetime.now()
+start_time = time.time()
 # add 1 to each element in vector x using for loop
 for i in itertools.product(*[range(s) for s in vector_x.shape]):
     vector_x[i] += 1
-# calculate and print execution time
-end_time = datetime.now() - start_time
-print('Question 3D execution time in hh:mm:ss : ', end_time)
+# calculate and print execution time in seconds
+end_time = time.time() - start_time
+print('Question 3D execution time in seconds : ', end_time)
 print('\n') # space
 
 
 #----------------------------------QUESTION-3-PART-E---------------------------------------------
 # record start time
-start_time = datetime.now()
+start_time = time.time()
 # add 1 to each element in vector x without using a loop
 vector_x += 1
-# calculate and print execution time
-end_time = datetime.now() - start_time
-print('Question 3E execution time in hh:mm:ss : ', end_time)
+# calculate and print execution time in seconds
+end_time = time.time() - start_time
+print('Question 3E execution time in seconds : ', end_time)
 print('\n') # space
 
 #----------------------------------QUESTION-3-PART-F---------------------------------------------
