@@ -1,5 +1,5 @@
 # ECE 1395
-# Problem Set 2
+# Problem Set 3
 # Beryl Sin
 
 # imports
