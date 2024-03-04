@@ -1,5 +1,5 @@
 # ECE 1395
-# Problem Set 2
+# Problem Set 4
 # Beryl Sin
 
 # imports
@@ -95,7 +95,7 @@ plt.savefig('output/ps4-2-a.png') # output
 data3 = sio.loadmat('input/hw4_data3.mat')
 # m samples, n features (excluding bias)
 m, n = data3['X_train'].shape
-m2, n2 = data3['X_test']. shape
+m2, n2 = data3['X_test'].shape
 # label vector
 y_train = data3['y_train']
 y_test = data3['y_test']

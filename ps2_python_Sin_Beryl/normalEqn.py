@@ -1,6 +1,6 @@
 import numpy as np
 
-# functiont that computes the closed-form solution to linear regression
+# function that computes the closed-form solution to linear regression
 def normalEqn(X_train, y_train):
     # theta = (X'* X)^-1 * (X' * y)
     # astype was to ensure that the datatypes of the elements stayed the same when transposed..
